@@ -1,5 +1,5 @@
 // Create default array
-const defaultArray = [2, 8, 1, 6, 3, 7, 5, 9];
+const defaultArray = [2, 8, 1, 6, 3, 7, 5, 9, 300, 0];
 let $container = displayArray(defaultArray);
 let miliseconds = {value: 500};
 
