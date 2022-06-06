@@ -2,7 +2,8 @@
 /* Global */
 /* ----------------------------------------------------------------- */
 body {
-  background: #212326;
+  /*background: #212326; */
+  background-color: transparent;
 }
 
 main {
@@ -26,7 +27,11 @@ header h1 {
 
 header #settings-btn {
   cursor: pointer;
+  color: black;
+  border: 2px solid black;
+  padding: 4px;
 }
+
 
 header div.header-container {
   display: -ms-grid;
@@ -34,6 +39,7 @@ header div.header-container {
   -ms-grid-columns: 1fr 5fr 1fr;
       grid-template-columns: 1fr 5fr 1fr;
   place-items: center;
+
 }
 
 header div.gradient-border {
@@ -141,6 +147,7 @@ section.animation-zone {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   overflow-x: auto;
+  background-color: #fff;
 }
 
 section.animation-zone div.array-container {
